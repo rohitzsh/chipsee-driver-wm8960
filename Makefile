@@ -1,8 +1,6 @@
 DEPMOD  = /sbin/depmod
 ARCH := arm
 CROSS_COMPILE ?=
-KVER  := $(shell uname -r)
-KSRC := /lib/modules/$(KVER)/build
 
 MODULE_NAME := snd-soc-wm8960
 $(MODULE_NAME)-y += wm8960.o
