@@ -1,5 +1,4 @@
 DEPMOD  = /sbin/depmod
-ARCH := $(ARCH) 
 
 MODULE_NAME := snd-soc-wm8960
 $(MODULE_NAME)-y += wm8960.o
