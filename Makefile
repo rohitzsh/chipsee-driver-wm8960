@@ -1,6 +1,5 @@
 DEPMOD  = /sbin/depmod
-ARCH := arm
-CROSS_COMPILE ?=
+ARCH := $(ARCH) 
 
 MODULE_NAME := snd-soc-wm8960
 $(MODULE_NAME)-y += wm8960.o
